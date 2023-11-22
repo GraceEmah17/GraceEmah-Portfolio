@@ -5,7 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -20,4 +21,65 @@ h6 {
 
 p {
   margin: 0;
+}
+header {
+  background-color: #31343d;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1{
+  background-color: #91cdce;
+  color: #31343d;
+  padding: 5px 15px 5px 35px;
+}
+header nav{
+  padding: 5px 35px 5px 5px;
+}
+header nav a{
+  color: #91cdce;
+  padding: 0px 15px;
+  font-weight: 600;
+}
+.hero-banner{
+  background-image: url('../images/02-hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+.hero-banner h2{
+  background-color: #91cdce;
+  color: #31343d;
+  padding: 5px 15px 5px 35px;
+}
+.page-wrapper{
+  padding: 50px 50px;
+}
+.page-section{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.page-section h2{
+  font-size: 45px;
+  width: 20%;
+  text-align: right;
+  border-right: 5px solid #4f576e;
+  padding-right: 20px;
+  color: #486180;
+  line-height: 50px;
+}
+.aboutUs, .work, .contact{
+  width: 80%;
+}
+.aboutUs p{
+  color: #4e515a;
+  font-size: 20px;
+  line-height: 35px;
 }
